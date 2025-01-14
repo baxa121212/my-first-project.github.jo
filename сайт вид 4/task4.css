@@ -1,0 +1,1436 @@
+.container img {
+    font-size: 113.88px 295px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    /* justify-content: space-between; */
+}
+
+.menu li {
+    top: 100px;
+    margin-right: 162px;
+    color: darkgray;
+}
+
+.menu li:hover {
+    color: black;
+}
+
+/* ------ --------*/
+.Сухаревская {
+    display: flex;
+    position: relative;
+    margin-left: 1300px;
+    bottom: 130px;
+    right: 250px;
+
+}
+
+.nom {
+    position: relative;
+    font-size: 28px;
+    margin-left: 1020px;
+    bottom: 160px;
+}
+
+.karta {
+    display: flex;
+    position: relative;
+    margin-left: 1450px;
+    bottom: 149px;
+    right: 250px;
+}
+
+.karta span {
+    position: absolute;
+    left: 10px;
+}
+
+.whatsapp {
+    display: flex;
+    position: relative;
+    margin-left: 1600px;
+    bottom: 270px;
+    right: 300px;
+}
+
+/* --------menu ---------- */
+.Mask-Group {
+    display: flex;
+    position: absolute;
+    top: 230px;
+}
+
+.shax {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 170px;
+    z-index: 2;
+}
+
+.shax-2 {
+    display: flex;
+    position: absolute;
+    right: 340px;
+    top: 60px;
+    z-index: 1;
+}
+
+.Rectangle {
+    display: flex;
+    position: absolute;
+    right: 440px;
+    top: 160px;
+}
+
+.Group-18 {
+    display: flex;
+    position: absolute;
+    right: 740px;
+    top: 200px;
+    margin-right: 10px;
+}
+
+.Group-text-18 {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 620px;
+    top: 210px;
+    font-size: 18px;
+    color: #0D386B;
+}
+
+.Group-17 {
+    display: flex;
+    position: absolute;
+    right: 740px;
+    top: 290px;
+    margin-right: 10px;
+}
+
+.Group-text-17 {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 620px;
+    top: 290px;
+    font-size: 18px;
+    color: #0D386B;
+}
+
+.Group-16 {
+    display: flex;
+    position: absolute;
+    right: 740px;
+    top: 375px;
+    margin-right: 10px;
+}
+
+.Group-text-16 {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 560px;
+    top: 380px;
+    font-size: 18px;
+    color: #0D386B;
+}
+
+.Group-2 {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    right: 890px;
+}
+
+.Group-2-text {
+    display: flex;
+    position: absolute;
+    color: #636363;
+    font-size: 24px;
+    right: 1050px;
+    top: 200px;
+}
+
+.telefon {
+    display: flex;
+    position: absolute;
+    color: #A6A6A6;
+    font-size: 18px;
+    right: 1100px;
+    top: 280px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* Элементтерді тігінен орналастыру */
+    align-items: center;
+    /* Орталыққа туралау */
+    gap: 15px;
+    /* Элементтер арасындағы аралық */
+    left: 200px;
+    top: 540px;
+}
+
+.phone-input {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Жиектерді жұмырлау */
+    outline: none;
+    /* Фокус кезінде сыртқы контурды жою */
+
+}
+
+.phone-input:focus {
+    border-color: #007bff;
+    /* Фокус кезінде көк шекара */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Көлеңке әсері */
+}
+
+.call-button {
+    width: 200px;
+    height: 45px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    /* Қалың мәтін */
+    border: none;
+    border-radius: 5px;
+    /* Жиектерді жұмырлау */
+    cursor: pointer;
+    /* Тінтуір көрсеткіші */
+    transition: background-color 0.3s ease;
+    /* Анимация */
+}
+
+.call-button:hover {
+    background-color: #218838;
+    /* Мышка апарғанда күңгірт жасыл түс */
+}
+
+.circle-button {
+    text-align: center;
+    /* Элементтерді туралау */
+}
+
+.round-button {
+    margin-top: 30px;
+    /* display: flex; */
+    position: absolute;
+    right: 470px;
+    top: 720px;
+    width: 110px;
+    /* Батырманың ені */
+    height: 110px;
+    /* Батырманың биіктігі (шаршы болуы керек) */
+    background-color: #28a745;
+    /* Жасыл фон түсі */
+    color: white;
+    /* Мәтін түсі */
+    font-size: 18px;
+    /* Шрифт өлшемі */
+    font-weight: bold;
+    /* Қалың мәтін */
+    border: none;
+    /* Шекарасыз */
+    border-radius: 50%;
+    /* Дөңгелек пішін */
+    cursor: pointer;
+    /* Тінтуір көрсеткіші */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* Көлеңке қосу */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Анимация */
+}
+
+.round-button:hover {
+    background-color: #218838;
+    /* Мышка апарғанда күңгірт жасыл түс */
+    transform: scale(1.1);
+    /* Сәл үлкейту әсері */
+}
+
+.round-button:active {
+    background-color: #1e7e34;
+    /* Басқанда күңгірт жасыл түс */
+    transform: scale(0.95);
+    /* Басқанда кішірейту әсері */
+}
+
+/* -------- 1 Bet -------- */
+
+/* body-1 {
+    background-color: skyblue;
+} */
+
+.tsena {
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    color: #0D386B;
+    top: 900px;
+    left: 50%;
+
+}
+
+/* Барлық элементтерге арналған негізгі стиль */
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+} */
+
+/* Үлкен суреттің контейнері */
+.header {
+    position: relative;
+    width: 100%;
+    /* Толық ен */
+    height: 300px;
+    /* Суреттің биіктігі */
+    overflow: hidden;
+    /* Шектен тыс элементтерді кесу */
+}
+
+/* Сурет стилі */
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/* Астындағы көк фон */
+.content {
+    /* position: relative; */
+    width: 1450px;
+    height: 5160px;
+
+    margin-top: 100px;
+    /* clip-path: polygon(0 0, 100% 20%, 100% 100%, 100% 80%); */
+    /* Бір жағын көтеру */
+    background-color: #d8e4f8;
+    /* Ашық көк түс */
+    /* padding: 500px 20px; */
+    /* Ішкі аралықтар */
+    text-align: center;
+    /* Мәтінді ортаға туралау */
+}
+
+/* fon */
+
+.content p {
+    color: #333;
+    /* Сұр мәтін түсі */
+    font-size: 18px;
+}
+
+.border-box {
+    border-radius: 10px;
+    position: absolute;
+    width: 837.66px;
+    /* Ені */
+    height: 310.05px;
+    /* Биіктігі */
+    top: 950.38px;
+    /* Жоғарыдан қашықтығы */
+    left: 296.66px;
+    /* Сол жақтан қашықтығы */
+    background-color: #ffffff;
+    /* Ішкі түс - ақ */
+    border: 2px solid #ffffff;
+    /* Шекара - қара */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Жеңіл көлеңке */
+}
+
+.img-3604 {
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    top: 970px;
+    left: 330px;
+}
+
+.peshat {
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    color: #0D386B;
+    bottom: 120px;
+    top: 1035px;
+    left: 413px;
+}
+
+.Group-15 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1038px;
+    left: 586px;
+    font-size: 17, 43px;
+}
+
+.border-line {
+    position: absolute;
+    width: 1px;
+    height: 184.46px;
+    top: 1035.69px;
+    left: 700px;
+    background-color: #C4C4C4;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+.day-1 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1038px;
+    left: 606px;
+    font-size: 14px;
+    color: #59697A;
+}
+
+.novi-pes {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1090px;
+    left: 346px;
+    font-size: 18px;
+    color: #5C7C8D;
+}
+
+.horizontal-border {
+    position: absolute;
+    width: 99.58px;
+    height: 1px;
+    top: 1105.96px;
+    left: 490px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+
+.a-290 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1087px;
+    left: 606px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+.po-pes {
+    color: #5C7C8D;
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1130px;
+    left: 346px;
+    font-size: 18px;
+}
+
+.horizon-border {
+    position: absolute;
+    width: 54.44px;
+    height: 1px;
+    top: 1145.96px;
+    left: 540px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+.a-390 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1126px;
+    left: 604px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+.fak-pes {
+    color: #5C7C8D;
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1170px;
+    left: 346px;
+    font-size: 18px;
+}
+
+.hori-border {
+    position: absolute;
+    width: 119.65px;
+    height: 1.12px;
+    top: 1185.96px;
+    left: 472px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+.a-590 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1168px;
+    left: 604px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+.Gro-15 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1038px;
+    left: 736px;
+    font-size: 17, 43px;
+}
+
+.sac {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1038px;
+    left: 756px;
+    font-size: 14px;
+    color: #59697A;
+}
+
+.nov-pes {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1090px;
+    left: 737px;
+    font-size: 18px;
+    color: #5C7C8D;
+}
+
+.horiz-border {
+    position: absolute;
+    width: 99.58px;
+    height: 1px;
+    top: 1105.96px;
+    left: 880px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+
+.a-500 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1087px;
+    left: 990px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+.po-pe {
+    color: #5C7C8D;
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1128px;
+    left: 736px;
+    font-size: 18px;
+}
+
+.hor-border {
+    position: absolute;
+    width: 54.44px;
+    height: 1px;
+    top: 1143.96px;
+    left: 925px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+.a-790 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1126px;
+    left: 990px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+.fa-pe {
+    color: #5C7C8D;
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1170px;
+    left: 735px;
+    font-size: 18px;
+}
+
+.ho-border {
+    position: absolute;
+    width: 119.65px;
+    height: 1.12px;
+    top: 1185.96px;
+    left: 860px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+.a-950 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1168px;
+    left: 990px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+/* ---------- */
+.bor-box {
+    border-radius: 10px;
+    position: absolute;
+    width: 837.66px;
+    /* Ені */
+    height: 310.05px;
+    /* Биіктігі */
+    top: 1285.38px;
+    /* Жоғарыдан қашықтығы */
+    left: 296.66px;
+    /* Сол жақтан қашықтығы */
+    background-color: #ffffff;
+    /* Ішкі түс - ақ */
+    border: 2px solid #ffffff;
+    /* Шекара - қара */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Жеңіл көлеңке */
+}
+
+.img-2018 {
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    top: 1300px;
+    left: 330px;
+}
+
+.stamp {
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    color: #0D386B;
+    bottom: 120px;
+    top: 1365px;
+    left: 434px;
+}
+
+.Group-15 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1038px;
+    left: 586px;
+    font-size: 17, 43px;
+}
+
+.border-lin {
+    position: absolute;
+    width: 1px;
+    height: 184.46px;
+    top: 1365.69px;
+    left: 700px;
+    background-color: #C4C4C4;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+
+
+
+.dayy-1 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1368px;
+    left: 606px;
+    font-size: 14px;
+    color: #59697A;
+}
+
+.Grou-15 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1368px;
+    left: 586px;
+    font-size: 17, 43px;
+}
+
+.novii-pes {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1414px;
+    left: 346px;
+    font-size: 18px;
+    color: #5C7C8D;
+}
+
+.horizontall-border {
+    position: absolute;
+    width: 99.58px;
+    height: 1px;
+    top: 1430.96px;
+    left: 490px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+
+.aa-290 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1414px;
+    left: 606px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+.poo-pes {
+    color: #5C7C8D;
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1455px;
+    left: 346px;
+    font-size: 18px;
+}
+
+.horizonn-border {
+    position: absolute;
+    width: 54.44px;
+    height: 1px;
+    top: 1471.96px;
+    left: 540px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+.a-400 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1454px;
+    left: 604px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+.fakk-pes {
+    color: #5C7C8D;
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1497px;
+    left: 346px;
+    font-size: 18px;
+}
+
+.horii-border {
+    position: absolute;
+    width: 119.65px;
+    height: 1.12px;
+    top: 1510.96px;
+    left: 472px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+.a-600 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1495px;
+    left: 604px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+.Groo-15 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1366px;
+    left: 736px;
+    font-size: 17, 43px;
+}
+
+.sacc {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1366px;
+    left: 756px;
+    font-size: 14px;
+    color: #59697A;
+}
+
+.noviii-pes {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1410px;
+    left: 737px;
+    font-size: 18px;
+    color: #5C7C8D;
+}
+
+.horizontalll-border {
+    position: absolute;
+    width: 99.58px;
+    height: 1px;
+    top: 1427.96px;
+    left: 880px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+
+.aaa-500 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1411px;
+    left: 990px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+.pooo-pes {
+    color: #5C7C8D;
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1453px;
+    left: 736px;
+    font-size: 18px;
+}
+
+.horizonnn-border {
+    position: absolute;
+    width: 54.44px;
+    height: 1px;
+    top: 1466.96px;
+    left: 925px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+.aaa-790 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1449px;
+    left: 990px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+.fakkk-pes {
+    color: #5C7C8D;
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1495px;
+    left: 735px;
+    font-size: 18px;
+}
+
+.horiii-border {
+    position: absolute;
+    width: 119.65px;
+    height: 1.12px;
+    top: 1511.96px;
+    left: 860px;
+    background-color: #B7CFDC;
+    /* Border line color */
+    opacity: 0.7;
+    /* Set opacity to 70% */
+}
+
+.aaa-1200 {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    top: 1494px;
+    left: 990px;
+    font-size: 22px;
+    color: #FF640D;
+}
+
+.Group-222 {
+    bottom: 200px;
+    top: 1750px;
+    display: flex;
+    position: absolute;
+}
+
+/* -------- 2 Bet------------- */
+.online-zakaz {
+    display: flex;
+    position: absolute;
+    bottom: 200px;
+    top: 2450px;
+    left: 50%;
+    color: #0D386B;
+    font-size: 24px;
+}
+
+.kis-border {
+    position: absolute;
+    width: 261.83px;
+    height: 243.54px;
+    top: 2560px;
+    left: 100px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.bbb {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    color: #BCBCBC;
+}
+
+.rushni {
+    display: flex;
+    position: absolute;
+    color: #636363;
+    font-size: 18px;
+    top: 70px;
+    left: 20px;
+}
+
+.counter {
+    display: flex;
+    position: absolute;
+    /* align-items: center; */
+    /* gap: 10px; */
+    top: 116px;
+    left: 87px;
+}
+
+.counter-btn {
+    width: 11.93px;
+    height: 14.34px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+    font-weight: bold;
+    color: #636363;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+.counter-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.counter-value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #636363;
+}
+
+.itog {
+    display: flex;
+    position: absolute;
+    font-size: 18px;
+    top: 160px;
+    left: 20px;
+    color: #BCBCBC;
+}
+
+.i-390 {
+    font-size: 40px;
+    display: flex;
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    color: #FF8A00;
+}
+
+.orta-border {
+    position: absolute;
+    width: 824.27px;
+    height: 370.74px;
+    top: 2562px;
+    left: 400px;
+    border-radius: 11px;
+    background-color: white;
+}
+
+.bid {
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    color: #636363;
+    top: 25px;
+    left: 35px;
+}
+
+/* .border-1 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    border-radius: 11px;
+    border: 1px solid #E2E2E2;
+    background-color: white;
+top: 60px;
+left: 45px;
+ }
+
+ .border-2 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    border-radius: 11px;
+    border: 1px solid #E2E2E2;
+    background-color: white;
+top: 70px;
+left: 300px;
+ }
+
+ .border-3 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    border-radius: 11px;
+    border: 1px solid #E2E2E2;
+    background-color: white;
+top: 70px;
+left: 550px;
+ } */
+
+.img-22 {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+.img-23 {
+    position: absolute;
+    top: 70px;
+    left: 280px;
+}
+
+.img-24 {
+    position: absolute;
+    top: 70px;
+    left: 540px;
+}
+
+.big-border {
+    position: absolute;
+    width: 824.7px;
+    height: 3204.4px;
+    top: 2980px;
+    left: 400px;
+    background-color: white;
+    border-radius: 17px;
+
+}
+
+.curved-background {
+    width: 1450px;
+    height: 300px;
+    /* Қажетіне қарай биіктігін өзгертіңіз */
+    background: linear-gradient(to right, #d8e4f8, #d8e4f8);
+    border-bottom-left-radius: 1250px;
+    border-bottom-right-radius: 1650px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tip {
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    color: #636363;
+    top: 30px;
+    left: 50px;
+}
+
+.Group-25 {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+.Group-26 {
+    position: absolute;
+    top: 80px;
+    left: 320px;
+}
+
+/* .srok {
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 70px;
+    font-size: 24px;
+    color: #636363;
+}
+
+.ring {
+    width: 22.45px; 
+    height: 22.45px;
+    border: 5px solid #d3d3d3; 
+    border-radius: 50%; 
+    background-color: #f9f9f9; 
+    margin-top: 450px;
+    margin-left: 90px;
+}
+
+.naa {
+    display: flex;
+    position: absolute;
+    font-size: 18px;
+    top: 455px;
+    left: 130px;
+    color: #1B1B1B;
+}
+
+.ringg {
+    width: 22.45px; 
+    height: 22.45px;
+    border: 5px solid #d3d3d3; 
+    border-radius: 50%; 
+    background-color: #f9f9f9; 
+   left: 350px;
+   top: 200px;
+   
+    
+    
+}
+
+.naaa {
+    display: flex;
+    position: absolute;
+    font-size: 18px;
+    top: 455px;
+    left: 280px;
+    color: #1B1B1B;
+    
+} */
+
+.Grou-24 {
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 60px;
+}
+
+.counter-2 {
+    display: flex;
+    position: absolute;
+    /* align-items: center; */
+    /* gap: 10px; */
+    top: 616px;
+    left: 87px;
+}
+
+.counter2-btn {
+    width: 22.43px;
+    height: 27.34px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    font-size: 14px;
+    font-weight: bold;
+    color: #636363;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+.counter2-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.counter2-value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #636363;
+}
+
+.kol {
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    color: #636363;
+    top: 550px;
+    left: 70px;
+}
+
+.Group-28 {
+    display: flex;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+
+
+
+.org-name,
+.city,
+.ogrn,
+.inn {
+    margin-bottom: 15px;
+}
+
+.org-name label,
+.city label,
+.ogrn label,
+.inn label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #636363;
+}
+
+.org-name input,
+.city input,
+.ogrn input,
+.inn input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.big-input {
+    display: flex;
+    position: absolute;
+    top: 850px;
+}
+
+.Group-29 {
+    display: flex;
+    position: absolute;
+    top: 980px;
+    left: 50px;
+}
+
+.Group-30 {
+    display: flex;
+    position: absolute;
+    top: 1880px;
+    left: 50px;
+}
+
+.Group-31 {
+    display: flex;
+    position: absolute;
+    top: 2500px;
+    left: 50px;
+}
+
+.inni {
+    display: flex;
+    position: absolute;
+    top: 2880px;
+    width: 1716.17px;
+    height: 151.53px;
+
+}
+
+.comment-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: relative;
+    top: 2800px;
+    /* position: absolute; */
+}
+
+.comment-group label {
+    margin-bottom: 45px;
+    font-size: 24px;
+    color: #636363;
+    margin-left: 50px;
+}
+
+.comment-group textarea {
+    width: 716px;
+    height: 151px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+    /* Қолданушыға өлшемін өзгертуге тыйым салады */
+    box-sizing: border-box;
+    margin-left: 50px;
+    top: 70px;
+}
+
+
+
+.button-zakaz {
+    text-align: center;
+    /* Элементтерді туралау */
+}
+
+.button-zakazzz {
+    margin-top: 2340px;
+    margin-right: 90px;
+    /* display: flex; */
+    position: absolute;
+    right: 470px;
+    top: 720px;
+    width: 211px;
+    /* Батырманың ені */
+    height: 44px;
+    /* Батырманың биіктігі (шаршы болуы керек) */
+    background-color: #28a745;
+    /* Жасыл фон түсі */
+    color: white;
+    /* Мәтін түсі */
+    font-size: 18px;
+    /* Шрифт өлшемі */
+    font-weight: bold;
+    /* Қалың мәтін */
+    border: none;
+    /* Шекарасыз */
+    border-radius: 2px;
+    /* Дөңгелек пішін */
+    cursor: pointer;
+    /* Тінтуір көрсеткіші */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* Көлеңке қосу */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Анимация */
+}
+
+.button-zakazzz:hover {
+    background-color: #218838;
+    /* Мышка апарғанда күңгірт жасыл түс */
+    transform: scale(1.1);
+    /* Сәл үлкейту әсері */
+}
+
+.button-zakazzz:active {
+    background-color: #1e7e34;
+    /* Басқанда күңгірт жасыл түс */
+    transform: scale(0.95);
+    /* Басқанда кішірейту әсері */
+}
+
+.oplata {
+    display: flex;
+    position: absolute;
+    font-size: 18px;
+    color: #898989;
+    margin-top: 2840px;
+    left: 370px;
+}
+
+.son-img {
+    display: flex;
+    position: absolute;
+    top: 6400px;
+    left: 200px;
+}
+
+.sonnn {
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    top: 2120px;
+    left: 150px;
+}
+
+
+.menu-son {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    top: 4410px;
+    left: 150px;
+    margin-bottom: 1000px;
+    /* justify-content: space-between; */
+}
+
+.menu-son li {
+    top: 100px;
+    bottom: 1000px;
+    margin-right: 162px;
+    color: darkgray;
+}
+
+.menu-son li:hover {
+    color: black;
+}
